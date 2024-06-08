@@ -17,6 +17,7 @@ if (localStorage.getItem("sites") != null) {
 
 Submit.addEventListener("click", () => {
     addSite()
+    clearFeild()
 })
 
 function addSite() {
